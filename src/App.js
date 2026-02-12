@@ -31,7 +31,6 @@ function App() {
     core: [
       { title: "Core CS Bundle", link: "https://drive.google.com/drive/folders/1IGkTc-wTDR0gZLEsjW-VhJXZ8S7cJCda" },
       { title: "Core Subject DSA + HR", link: "https://drive.google.com/drive/folders/1u6rU69UWH8c4T1yOycrwm5-R1DRWX9fj" },
-      { title: "DSA WhatsApp Channel", link: "https://whatsapp.com/channel/0029VazMK0J30LKTGQxCyi40/625" },
       { title: "HR Questions", link: "https://drive.google.com/drive/folders/149eO9qawR7t9Cn2_pJBHDL7iPus30o_s" },
       { title: "Development Roadmap + Projects", link: "https://drive.google.com/drive/folders/1_X8kNOELd1sm3gQSFbooxDsZE1oeI5vx" }
     ],
