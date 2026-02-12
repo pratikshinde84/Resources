@@ -36,3 +36,198 @@
     transform: rotate(360deg);
   }
 }
+/* Hiring Card Specific Styles */
+/* Modern Hiring Card Redesign */
+.hiring-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hiring-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2, #00b09b);
+}
+
+.hiring-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+}
+
+.hiring-card .company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hiring-card .company-name {
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.hiring-card .company-name::after {
+  content: '🏢';
+  font-size: 1rem;
+  margin-left: 8px;
+  opacity: 0.7;
+}
+
+.hiring-card .package-badge {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 10px rgba(0, 176, 155, 0.2);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hiring-card .package-badge::before {
+  content: '💰';
+  font-size: 0.9rem;
+}
+
+.hiring-card .position {
+  color: #4a5568;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  border-bottom: 2px dashed #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hiring-card .position::before {
+  content: '👔';
+  font-size: 1.1rem;
+}
+
+.hiring-card .skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.hiring-card .skill-tag {
+  background: #f7fafc;
+  color: #2d3748;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hiring-card .skill-tag::before {
+  content: '⚡';
+  font-size: 0.8rem;
+}
+
+.hiring-card .skill-tag:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+  transform: scale(1.05);
+}
+
+.hiring-card .apply-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 100%;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.hiring-card .apply-btn::before {
+  content: '→';
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.hiring-card .apply-btn:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46a1 100%);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  transform: scale(1.02);
+}
+
+.hiring-card .apply-btn:hover::before {
+  transform: translateX(5px);
+}
+
+/* Dark mode styles for hiring cards */
+body.dark .hiring-card {
+  background: #1a202c;
+  border-color: #2d3748;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+body.dark .hiring-card::before {
+  background: linear-gradient(90deg, #9f7aea, #ed64a6, #38b2ac);
+}
+
+body.dark .hiring-card .company-name {
+  color: white;
+}
+
+body.dark .hiring-card .company-name::after {
+  opacity: 0.5;
+}
+
+body.dark .hiring-card .position {
+  color: #e2e8f0;
+  border-bottom-color: #4a5568;
+}
+
+body.dark .hiring-card .skill-tag {
+  background: #2d3748;
+  color: #e2e8f0;
+  border-color: #4a5568;
+}
+
+body.dark .hiring-card .skill-tag:hover {
+  background: #9f7aea;
+  color: white;
+  border-color: #9f7aea;
+}

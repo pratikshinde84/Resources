@@ -54,12 +54,55 @@ function App() {
       { title: "Meta Certifications", link: "https://www.facebook.com/business/learn/certification" },
       { title: "Deloitte Academy", link: "https://www.deloitte.com/cy/en/services/deloitte-academy.html" },
       { title: "PayPal PCI Compliance", link: "https://www.paypal.com/in/webapps/mpp/pci-compliance" }
+    ],
+
+    // Fixed Hiring News Section
+    hiring: [
+      {
+        company: "IBM",
+        position: "Associate Developer",
+        package: "Apply Now",
+        skills: "Entry Level",
+        link: "https://careers.ibm.com/en_US/careers/JobDetail?jobId=92086"
+      },
+      {
+        company: "Deutsche Bank",
+        position: "Software Engineer",
+        package: "Apply Now",
+        skills: "Entry Level",
+        link: "https://careers.db.com/professionals/search-roles/?test.html%3Fkid%3D=linkedinjobwrap#/professional/job/68787"
+      },
+      {
+        company: "Adobe",
+        position: "Associate Technical Consultant",
+        package: "Apply Now",
+        skills: "Entry Level",
+        link: "https://share.google/DDp6KnESajNlFjQlI"
+      },
+      {
+        company: "Cisco",
+        position: "Software Engineer Intern",
+        package: "2028 graduates (females only)",
+        skills: "Cisco Women Internship Program",
+        link: "https://careers.cisco.com/global/en/job/2006873/Software-Engineer-Intern-Cisco-Women-Internship-Program"
+      },
+      {
+        company: "Cognizant",
+        position: "Software Engineer",
+        package: "2025 graduates",
+        skills: "Entry Level",
+        link: "https://app.joinsuperset.com/join/#/signup/student/jobprofiles/65ac431a-2d60-417a-b1f6-6b0f455a1d33"
+      }
     ]
   };
 
-  const filtered = data[category].filter(item =>
-    item.title.toLowerCase().includes(search.toLowerCase())
-  );
+  const filtered = category === "hiring" 
+    ? data[category].filter(item =>
+        `${item.company} ${item.position} ${item.skills} ${item.package}`.toLowerCase().includes(search.toLowerCase())
+      )
+    : data[category].filter(item =>
+        item.title.toLowerCase().includes(search.toLowerCase())
+      );
 
   return (
     <div className="app">
@@ -68,7 +111,7 @@ function App() {
         <div className="top-controls">
           <input
             type="text"
-            placeholder="Search resources..."
+            placeholder={category === "hiring" ? "Search jobs..." : "Search resources..."}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
@@ -84,17 +127,38 @@ function App() {
         <button onClick={() => setCategory("core")}>Core CS</button>
         <button onClick={() => setCategory("aptitude")}>Aptitude</button>
         <button onClick={() => setCategory("certifications")}>Certifications</button>
+        <button onClick={() => setCategory("hiring")}>🔥 Hiring News</button>
       </nav>
 
       <div className="cards">
-        {filtered.map((item, index) => (
-          <div className="card" key={index}>
-            <h3>{item.title}</h3>
-            <a href={item.link} target="_blank" rel="noreferrer">
-              <button>Open</button>
-            </a>
-          </div>
-        ))}
+        {category === "hiring" ? (
+          // Fixed Hiring News Cards
+          filtered.map((item, index) => (
+            <div className="card hiring-card" key={index}>
+              <div className="company-header">
+                <h3 className="company-name">{item.company}</h3>
+                <span className="package-badge">{item.package}</span>
+              </div>
+              <p className="position">{item.position}</p>
+              <div className="skills-tags">
+                <span className="skill-tag">{item.skills}</span>
+              </div>
+              <a href={item.link} target="_blank" rel="noreferrer">
+                <button className="apply-btn">Apply Now →</button>
+              </a>
+            </div>
+          ))
+        ) : (
+          // Regular Resource Cards
+          filtered.map((item, index) => (
+            <div className="card" key={index}>
+              <h3>{item.title}</h3>
+              <a href={item.link} target="_blank" rel="noreferrer">
+                <button>Open</button>
+              </a>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );
