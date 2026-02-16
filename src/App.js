@@ -90,8 +90,8 @@ function App() {
         company: "Cognizant",
         position: "Software Engineer",
         package: "2025 graduates",
-        skills: "Entry Level",
-        link: "https://app.joinsuperset.com/join/#/signup/student/jobprofiles/65ac431a-2d60-417a-b1f6-6b0f455a1d33"
+        skills: "Mass Hiring",
+        link: "https://careers.cognizant.com/india-en/pathways-to-cognizant/genc-program/?fbclid=PAb21jcAP9G7lleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafuQcZrgPLHZNBrscKpSiwqL_4wqVFTSQMkJH_i8etSk0DO1tWQRvJG6MD-Rg_aem_LwkHzG4IXeZ6fLWMmYokdg"
       }
     ]
   };
