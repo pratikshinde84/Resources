@@ -82,7 +82,7 @@ function App() {
       {
         company: "Cisco",
         position: "Software Engineer Intern",
-        package: "2028 graduates (females only)",
+        package: "2028 graduates (females only) ",
         skills: "Cisco Women Internship Program",
         link: "https://careers.cisco.com/global/en/job/2006873/Software-Engineer-Intern-Cisco-Women-Internship-Program"
       },
