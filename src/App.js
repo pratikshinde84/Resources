@@ -92,6 +92,13 @@ function App() {
         package: "2025 graduates",
         skills: "Mass Hiring",
         link: "https://careers.cognizant.com/india-en/pathways-to-cognizant/genc-program/?fbclid=PAb21jcAP9G7lleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAafuQcZrgPLHZNBrscKpSiwqL_4wqVFTSQMkJH_i8etSk0DO1tWQRvJG6MD-Rg_aem_LwkHzG4IXeZ6fLWMmYokdg"
+      },
+      {
+        company: "Deloitte",
+        position: "Internship",
+        package: "-",
+        skills: "Entry Level",
+        link: "https://www.deloitte.com/au/en/careers/students/virtual-experience.html?fbclid=PAT01DUAP_zJxleHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadXLzRtcH9kuj_7tE_IheNAN6a1pTp4pZdroH0M_Vv8-Jd17CPmufvY6ORSJA_aem_SQyUb9IrABxZ_a22TSjdFw"
       }
     ]
   };
