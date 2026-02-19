@@ -118,7 +118,7 @@ function App() {
         <div className="top-controls">
           <input
             type="text"
-            placeholder={category === "hiring" ? "Search jobs..." : "Search resources..."}
+            placeholder={category === "hiring " ? "Search jobs..." : "Search resources..."}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
