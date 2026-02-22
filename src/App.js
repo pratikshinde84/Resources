@@ -139,7 +139,6 @@ function App() {
 
       <div className="cards">
         {category === "hiring" ? (
-          // Fixed Hiring News Cards
           filtered.map((item, index) => (
             <div className="card hiring-card" key={index}>
               <div className="company-header">
@@ -156,7 +155,6 @@ function App() {
             </div>
           ))
         ) : (
-          // Regular Resource Cards
           filtered.map((item, index) => (
             <div className="card" key={index}>
               <h3>{item.title}</h3>
