@@ -39,7 +39,7 @@ function App() {
 
     aptitude: [
       { title: "Aptitude Notes 🔥", link: "https://drive.google.com/file/d/1uZJa72IvOYQXF6-jzayD4XcS5bfeHyru/view" },
-      { title: "Aptitude PYQ", link: "https://drive.google.com/file/d/1OBC7Qn_bd9MCdSp7yq0lBC1eRxnKO5ZV/view" },
+      { title: "Aptitude PYQs", link: "https://drive.google.com/file/d/1OBC7Qn_bd9MCdSp7yq0lBC1eRxnKO5ZV/view" },
       { title: "Interview Hacks", link: "https://drive.google.com/drive/folders/1XPG0wHdoCWe-1ynf9ntrhUj_BmwQ9EvM" }
     ],
 
