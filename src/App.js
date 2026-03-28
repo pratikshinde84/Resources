@@ -44,7 +44,7 @@ function App() {
     ],
 
     
-      certifications: [
+    certifications: [
       { title: "Google Certificates", link: "https://grow.google/certificates/" },
       { title: "Google Cloud Learn", link: "https://cloud.google.com/learn" },
       { title: "Skillshop", link: "https://skillshop.withgoogle.com/" },
