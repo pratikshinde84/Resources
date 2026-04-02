@@ -42,12 +42,11 @@ function App() {
       { title: "Aptitude PYQs", link: "https://drive.google.com/file/d/1OBC7Qn_bd9MCdSp7yq0lBC1eRxnKO5ZV/view" },
       { title: "Interview Hacks", link: "https://drive.google.com/drive/folders/1XPG0wHdoCWe-1ynf9ntrhUj_BmwQ9EvM" }
     ],
-  
-    certifications: [
+      certifications: [
       { title: "Google Certificates", link: "https://grow.google/certificates/" },
       { title: "Google Cloud Learn", link: "https://cloud.google.com/learn" },
       { title: "Skillshop", link: "https://skillshop.withgoogle.com/" },
-      { title: "AWS Skill Builder", link: "https://aws.amazon.com/training/digital/" },
+      { title: "AWS Skill Builder", link: "https://aws.amazon.com/training/digital/" }, 
       { title: "AWS Educate", link: "https://aws.amazon.com/education/awseducate/" },
       { title: "Microsoft Learn", link: "https://learn.microsoft.com/en-us/training/" },
       { title: "Free Microsoft Student Exams", link: "https://aka.ms/student-certification" },
