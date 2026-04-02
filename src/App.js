@@ -57,7 +57,6 @@ function App() {
       { title: "PayPal PCI Compliance", link: "https://www.paypal.com/in/webapps/mpp/pci-compliance" }
     ],
 
-    // Fixed Hiring News Section
     hiring: [
       {
         company: "IBM",
