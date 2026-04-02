@@ -46,7 +46,7 @@ function App() {
       { title: "Google Certificates", link: "https://grow.google/certificates/" },
       { title: "Google Cloud Learn", link: "https://cloud.google.com/learn" },
       { title: "Skillshop", link: "https://skillshop.withgoogle.com/" },
-      { title: "AWS Skill Builder", link: "https://aws.amazon.com/training/digital/" }, 
+      { title: "AWS Skill Builder", link: "https://aws.amazon.com/training/digital/" },
       { title: "AWS Educate", link: "https://aws.amazon.com/education/awseducate/" },
       { title: "Microsoft Learn", link: "https://learn.microsoft.com/en-us/training/" },
       { title: "Free Microsoft Student Exams", link: "https://aka.ms/student-certification" },
