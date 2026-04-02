@@ -47,7 +47,7 @@ function App() {
       { title: "Google Cloud Learn", link: "https://cloud.google.com/learn" },
       { title: "Skillshop", link: "https://skillshop.withgoogle.com/" },
       { title: "AWS Skill Builder", link: "https://aws.amazon.com/training/digital/" },
-      { title: "AWS Educate", link: "https://aws.amazon.com/education/awseducate/" }, 
+      { title: "AWS Educate", link: "https://aws.amazon.com/education/awseducate/" },
       { title: "Microsoft Learn", link: "https://learn.microsoft.com/en-us/training/" },
       { title: "Free Microsoft Student Exams", link: "https://aka.ms/student-certification" },
       { title: "Oracle Certifications", link: "https://academy.oracle.com/en/resources-oracle-certifications.html" },
