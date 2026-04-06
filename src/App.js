@@ -15,6 +15,10 @@ function App() {
       {
         title: "📂 Master Drive",
         link: "https://drive.google.com/drive/folders/13bI4Ko4znysfA3s4oWpFjpPKzA_Q_4fX?usp=sharing"
+      },
+      {
+        title: "HR Contact List",
+        link: "https://drive.google.com/file/d/1ElqmcwDgCfR2F5usHmK93JAsm8V4scIQ/view?usp=drivesdk"
       }
     ],
 
