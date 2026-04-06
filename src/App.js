@@ -12,7 +12,7 @@ function App() {
 
   const data = {
     home: [
-      {
+      { 
         title: "📂 Master Drive",
         link: "https://drive.google.com/drive/folders/13bI4Ko4znysfA3s4oWpFjpPKzA_Q_4fX?usp=sharing"
       },
