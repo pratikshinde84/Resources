@@ -1,3 +1,4 @@
+package DAA;
 public class SelectionSortExample {
 
     public static void selectionSort(int[] arr) {

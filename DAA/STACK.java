@@ -1,3 +1,4 @@
+package DAA;
 class STACK{
     static int arr[]=new int[5];
     static int top=-1;

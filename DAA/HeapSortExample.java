@@ -1,3 +1,4 @@
+package DAA;
 public class HeapSortExample {
 
     public static void heapSort(int[] arr) {
