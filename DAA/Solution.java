@@ -20,7 +20,7 @@ class Solution {
             }
         }
         return ar;
-    }    
+    }     
     public static void main(String[] args) {   
         System.out.print(nextLargerElement(new int[]{6,8,0,1,3}));
     }
