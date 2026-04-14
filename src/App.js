@@ -22,7 +22,7 @@ function App() {
       },
       {
         title: "Typing Speed Test ",
-        link: "https://monkeytype.com/"
+        link: "https://monkeytype.com/" 
       }
     ],
 
