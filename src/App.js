@@ -23,7 +23,7 @@ function App() {
       { 
         title: "Typing Speed Test ",
         link: "https://monkeytype.com/" 
-      }
+      } 
     ],
 
     company: [
