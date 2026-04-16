@@ -1,0 +1,40 @@
+2026-04-16T18:02:29.504Z INFO Is remote: false
+2026-04-16T18:02:29.506Z INFO Starting Local. Installation path: undefined
+2026-04-16T18:02:29.507Z INFO [MainProvider] Creating new MainProvider instance...
+2026-04-16T18:02:29.508Z INFO [TabsManager] Code view listener set up at initialization
+2026-04-16T18:02:29.508Z INFO Installation path exists: e:\Desktop\Pratik.dev\github\RESOURCES\one-step-store\src
+2026-04-16T18:02:29.509Z INFO Initializing database with URL: file:C:\Users\PRATIK~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-04-16T18:02:29.513Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-04-16T18:02:29.513Z INFO Database initialized successfully
+2026-04-16T18:02:29.514Z INFO [Migration] Checking for database migration...
+2026-04-16T18:02:30.376Z INFO [Migration] No migration needed
+2026-04-16T18:03:43.323Z INFO Closing entire Pythagora extension...
+2026-04-16T18:03:43.370Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new jI (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:149022)
+    at i._remoteCall (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:155074)
+    at Proxy.r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:151869)
+    at Sg._doExecuteCommand (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:48120)
+    at Sg.executeCommand (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:501:47567)
+    at Object.executeCommand (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:630:135583)
+    at closeEntirePythagoraExtension (c:\Users\Pratik Shinde\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+    at Object.deactivate (c:\Users\Pratik Shinde\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+    at cP._deactivate (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:14479)
+    at file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12006
+    at Array.map (<anonymous>)
+    at cP._deactivateAll (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:11994)
+    at cP.terminate (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12345)
+    at i.terminate (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+    at Qs (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:822:11700)
+    at rp.value (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:822:9847)
+    at E._deliver (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3043)
+    at E.fire (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3361)
+    at ls.fire (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+    at MessagePortMain.<anonymous> (file:///c:/Program%20Files/Microsoft%20VS%20Code/41dd792b5e/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:822:8082)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+Extra context: {
+  "message": "Canceled"
+}

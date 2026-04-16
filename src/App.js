@@ -19,7 +19,7 @@ function App() {
       {
         title: "HR Contact List",
         link: "https://drive.google.com/file/d/1ElqmcwDgCfR2F5usHmK93JAsm8V4scIQ/view?usp=drivesdk"
-      },
+      }, 
       { 
         title: "Typing Speed Test ",
         link: "https://monkeytype.com/"
