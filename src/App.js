@@ -26,7 +26,6 @@ function App() {
       }
     ],
 
-
     
     company: [
       { title: "TCS Ninja Roadmap 🚀", link: "https://drive.google.com/file/d/1nPN01XDICUyuHRHJckzZPMN_25Am6Sir/view?usp=drivesdk" },
