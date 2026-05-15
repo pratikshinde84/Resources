@@ -13,6 +13,6 @@ class a{
         return sb.toString();
     }
     public static void main(String[] args) {
-         System.out.println(new a().makeGood("leEeetcode"));
+         System.out.println(new a().makeGood("leEeetcode")); 
     }
 }   
