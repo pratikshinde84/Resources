@@ -10,8 +10,11 @@ class b{
             set=new HashSet<>();
             int count=0;
             while(i<n&&set.size()<3){
+
                 set.add(fruits[i]);
-                count++;
+                if(set.size()<=2){
+                    count++;
+                }
                 i++;
             }
             i=j;
