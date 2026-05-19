@@ -21,13 +21,11 @@ class a{
             if(nums[right]==1){
                 ones++;
             }
-            if((right-left+1)-ones>k){
-                if(nums[left]==0){
+            while(right-left+1-ones>k){
+                if(nums[left]==1){
                     ones--;
-                    left++;
-                }else{
-                    left++;
                 }
+                left++;
             }
             ans=Math.max(ans,right-left+1);
         }
@@ -35,6 +33,6 @@ class a{
     }
 
     public static void main(String[] args) {
-        
+        System.out.println(new a().longestOnes(new int[]{1,1,1,0,0,0,1,1,1,1,0},2));
     }
 }      
