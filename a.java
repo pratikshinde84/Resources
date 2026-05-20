@@ -20,7 +20,7 @@ class a{
         for(right=0;right<n;right++){
             if(nums[right]==1){
                 ones++;
-            }
+            } 
             while(right-left+1-ones>k){
                 if(nums[left]==1){
                     ones--;
