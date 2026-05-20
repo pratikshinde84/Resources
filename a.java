@@ -18,7 +18,7 @@ class a{
         int left=0,right=0;
         int n = nums.length;
         for(right=0;right<n;right++){
-            if(nums[right]==1){
+            if(nums[right]==1){ 
                 ones++;
             } 
             while(right-left+1-ones>k){
