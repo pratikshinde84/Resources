@@ -3,80 +3,53 @@ import java.util.*;
 public class Main {
 
     // Function to get grade based on marks
-    public static char getGrade(int marks) {
+    public static void getGrade(int arr[],int count[]) {
+        int n=arr.length;
+        for(int i=0;i<n;i++){
+            if(arr[i]>=90&&arr[i]<=100){
+                count[0]++;
+            }else if(arr[i]>=80&&arr[i]<90){
+                count[1]++;
+            }else if(arr[i]>=70&&arr[i]<80){
+                count[2]++;
+            }else if(arr[i]>=60&&arr[i]<70){
+                count[3]++;
+            }else if(arr[i]>=50&&arr[i]<60){
+                count[4]++;
+            }else if(arr[i]>=0&&arr[i]<50){
+                count[5]++;
+            }else{
+                count[6]++;
+            }
+        }
 
-        // Write your conditions here
-
-        return 'X';
     }
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input number of students
         int n = sc.nextInt();
 
-        // Count array for:
-        // A B C D E F X
         int[] count = new int[7];
+        int arr[]=new int[n];
 
-        // Priority order
         char[] grades = {'A', 'B', 'C', 'D', 'E', 'F', 'X'};
 
-        // Read marks
+        
         for (int i = 0; i < n; i++) {
-
-            int marks = sc.nextInt();
-
-            char grade = getGrade(marks);
-
-            // Increase corresponding count
-            switch (grade) {
-
-                case 'A':
-                    count[0]++;
-                    break;
-
-                case 'B':
-                    count[1]++;
-                    break;
-
-                case 'C':
-                    count[2]++;
-                    break;
-
-                case 'D':
-                    count[3]++;
-                    break;
-
-                case 'E':
-                    count[4]++;
-                    break;
-
-                case 'F':
-                    count[5]++;
-                    break;
-
-                default:
-                    count[6]++;
-            }
+            arr[i]=sc.nextInt();
         }
 
-        // Find grade with maximum count
-        int maxIndex = 0;
+        getGrade(arr,count);
 
-        for (int i = 1; i < 7; i++) {
-
-            // Strictly greater because
-            // earlier index already has higher priority
-            if (count[i] > count[maxIndex]) {
-                maxIndex = i;
+        int ans=-1;
+        for(int i=0;i<count.length;i++){
+            if(count[i]>ans){
+                ans=i;
             }
         }
-
-        // Print answer
-        System.out.println(grades[maxIndex]);
+        System.out.println(grades[ans]);
 
         sc.close();
     }
