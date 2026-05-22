@@ -43,9 +43,9 @@ public class Main {
 
         getGrade(arr,count);
 
-        int ans=-1;
+        int ans=0;
         for(int i=0;i<count.length;i++){
-            if(count[i]>ans){
+            if(count[i]>count[ans]){
                 ans=i;
             }
         }
