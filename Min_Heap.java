@@ -16,7 +16,7 @@ public class Min_Heap {
     int right(int ele){
         return 2*ele+2;
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Min_Heap mh=new Min_Heap();
         int arr[]={1,2,3};
         int n=arr.length;
