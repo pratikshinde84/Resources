@@ -11,7 +11,7 @@ public class Min_Heap {
         return true;  
     }
     int left(int ele){
-        return 2*ele+1;
+        return 2*ele+1; 
     }
     int right(int ele){
         return 2*ele+2;
