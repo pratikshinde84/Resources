@@ -6,6 +6,8 @@ public class Min_Heap {
             }
             if(right(i)<n && arr[i]>arr[right(i)]){
                 return false; 
+
+                
             }
         }
         return true;  
