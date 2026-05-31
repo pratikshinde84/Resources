@@ -15,7 +15,7 @@ public class Min_Heap {
     int left(int ele){
         return 2*ele+1; 
     }
-    int right(int ele){
+    int right(int ele){ 
         return 2*ele+2; 
     }      
     public static void main(String[] args) {  
