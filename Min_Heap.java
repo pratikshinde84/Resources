@@ -9,7 +9,7 @@ public class Min_Heap {
             }
         }
         return true;  
-    }
+    } 
     int left(int ele){
         return 2*ele+1; 
     }
