@@ -22,4 +22,4 @@ public class Min_Heap {
         int n=arr.length;
         System.out.println(mh.isMinHeap(arr, n)); 
     }
-}
+}    
