@@ -6,7 +6,7 @@ class a{
             if(Math.abs(sb.charAt(i)-sb.charAt(i+1))==32){
                 sb.delete(i,i+2);
                 i=Math.max(0,i-1);
-            }else{
+            }else{   
                 i++;
             }
         }

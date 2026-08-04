@@ -14,8 +14,9 @@ public class reverse {
         System.out.print(two+" ");
         for(int i=2;i<n;i++){
             int temp=one+two;
+            
             System.out.print(temp+" ");
-            one=two;
+            one=two; 
             two=temp;
         }
     }
