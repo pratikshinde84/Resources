@@ -12,6 +12,7 @@ class a{
         }       
         return sb.toString();
     }  
+    
  
     public int longestOnes(int[] nums, int k) {
         int ans=0,ones=0;
